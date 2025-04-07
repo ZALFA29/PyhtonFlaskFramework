@@ -7,7 +7,7 @@ Kelas: B-24
 
 1. @app.route(’’/’’) menampilkan teks “Hello,duniaku!”
 2.  @app.route(/aplikasi/) menampilkan teks “selamat datang di welcome flask”
-3. @app.route(/about) merender halaman HTML tanpa bootstrap. `about_without_bootstrap.html`
+3. @app.route(/about) merender halaman HTML tanpa bootstrap about_without_bootstrap.html
  (tampilan web lebih sederhana)
 4. @app.route(/about) merender halaman HTML tanpa bootstrap (tampilan web lebih responsif)
 5. @app.route(/nama/string:nama_mahasiswa/) menggunakan routing dinamis berdasarkan input dari user dengan menambahkan tipe data tertentu.
